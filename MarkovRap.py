@@ -50,6 +50,6 @@ if __name__ == '__main__':
 	rapProbDict = addToDict('lyrics1.txt', rapFreqDict)
 	rapProbDict = addToDict('lyrics2.txt', rapFreqDict)
 
-	startWord = input("What do you want to start your rap with?\n > ")
+	startWord = raw_input("What do you want to start your rap with?\n > ")
 	print("Alright, here's your rap:")
 	print(makeRap(startWord, rapProbDict))
